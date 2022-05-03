@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(214, 45, 45);
+}
+div.titulo {
+  color: white;
+  background-color: rgb(241, 60, 60);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif,
+    "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: rgb(247, 224, 224)-1px, -2px, -3px;
+  text-align: center;
+}
+ul,
+li {
+  display: flex;
+  padding: 15px;
+  margin: 0px;
+  justify-content: space-around;
+  font-family: fantasy;
+  font-weight: bold;
+  background-color: rgb(238, 26, 238);
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+p.par1 {
+  background-image: url(img/dia.jpg);
+  width: 100%;
+  height: 250%;
+  color: #f5ebf5;
+  font-size: 50px;
+}
+footer {
+  display: block;
+  color: rgb(92, 91, 91);
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  margin-block: 22px;
+  background-color: rgb(194, 250, 109);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li.inicio,
+li.compras,
+li.contactanos,
+hoover {
+  background-color: rgb(37, 123, 180);
+}
